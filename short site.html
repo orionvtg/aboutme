@@ -1,25 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en-us">
+
+<head>  
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Orion Grabb</title>
-  
+  <title>CSS Stylesheets with Relative Paths</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
 </head>
+
 <body>
-  <h1>Student Bio</h1>
+  <header>
+    <h1>Student Bio</h1>
+  </header>
 
-  <h2>Orion Grabb</h2>
+  <div class="container">
 
-  <img src="https://64.media.tumblr.com/0d8bc8cb7cc15af9154b02abfdfffcd8/21e57620c34d1fdc-a2/s2048x3072/5f905954028ceecf36373407e287e6f9a8b3b852.jpg"
-  alt="orion in japantown" width="500" height="600"
-  >
-  
-  <p>Hello I'm Orion Quintana otherwise 'known as orion nocap' in the music industry. You can catch me playing video games or watching movies related to sci-fi as the source of insipiration of my music.
-    I like to chill with my kitten named boots and partake in the occasional touge </p>
+    <section id="main-bio">
 
-  <ul>
-    <li><a>href'</a></li>
-  </ul>
+      <h2>orion nocap</h2>
+
+      <img id="bio-image" src="https://64.media.tumblr.com/0d8bc8cb7cc15af9154b02abfdfffcd8/21e57620c34d1fdc-a2/s2048x3072/5f905954028ceecf36373407e287e6f9a8b3b852.jpg" alt="orion nocap in japantown">
+
+      <p>Write a short paragraph or two about yourself, or use placeholder text from <a href="http://www.lipsum.com/">www.lipsum.com</a></p>
+    </section>
+
+    <section id="contact-info">
+      <h2>Contact Info</h2>
+      <ul>
+        <li><strong>Email:</strong> <a href="#">someplace@gmail.com</a></li>
+        <li><strong>Github:</strong> <a href="#">sampleName</a></li>
+        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
+      </ul>
+    </section>
+  </div>
+
 </body>
+
 </html>
