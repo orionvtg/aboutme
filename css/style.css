@@ -1,5 +1,4 @@
 * {
-  border:1px solid red;
   line-height: 1.5;
 }
 
@@ -69,8 +68,8 @@ h2 {
     /* All unordered list tags */
     
     ul {
-      text-align: center;
-      font-size: 35px;
+      text-align: left;
+      font-size: 20px;
       /* Give an element a solid border. */
       border-style: solid;
       /* Render the border 5 pixels thick. */
@@ -79,6 +78,7 @@ h2 {
       /* More info here: http://www.w3schools.com/cssref/pr_list-style-position.asp */
       list-style-position: inside;
     }
+    
     .container {
       margin: 0 auto;
       width: 1024px;
@@ -94,6 +94,10 @@ h2 {
     .contact-info {
       width: 30%;
     }
-    .main-bio .contact-info .bio-image {
+    .main-bio, .contact-info, .bio-image {
       float: left;
+    }
+    
+    a {
+      color:#d21034;
     }
